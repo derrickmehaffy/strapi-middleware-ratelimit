@@ -1,5 +1,6 @@
 ---
 name: 🐛 Bug Report
+labels: "type: bug"
 about: Create an issue report.
 ---
 

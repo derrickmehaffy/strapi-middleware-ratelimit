@@ -1,5 +1,6 @@
 ---
 name: 🚀 Feature Request
+labels: "type: feature request"
 about: Suggest an idea to help make Strapi even better!
 ---
 
