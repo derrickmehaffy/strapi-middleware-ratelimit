@@ -1,0 +1,30 @@
+{
+  "ratelimit": {
+    "enabled": true,
+    "driver": "memory",
+    "redis": {
+      "host": "127.0.0.1",
+      "port": 6379,
+      "family": 4,
+      "password": "",
+      "db": 0
+    },
+    "duration": 60000,
+    "max": 100,
+    "errorMessage": {
+      "statusCode": 429,
+      "error": "Rate limit exceeded"
+    },
+    "headers": {
+      "remaining": "Rate-Limit-Remaining",
+      "reset": "Rate-Limit-Reset",
+      "total": "Rate-Limit-Total"
+    },
+    "disableHeader": false,
+    "whitelist": {
+      "ip": [],
+      "route": [],
+      "method": []
+    }
+  }
+}

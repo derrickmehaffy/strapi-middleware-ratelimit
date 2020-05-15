@@ -1,0 +1,24 @@
+{
+  "name": "strapi-middleware-ratelimit",
+  "version": "1.0.0",
+  "description": "A rate limit middleware for Strapi",
+  "main": "./lib",
+  "scripts": {},
+  "keywords": [
+    "ratelimit",
+    "strapi",
+    "requests",
+    "redis",
+    "memory"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "author": "derrickmehaffy",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "ioredis": "^4.16.3",
+    "koa-ratelimit": "^4.2.1"
+  }
+}
